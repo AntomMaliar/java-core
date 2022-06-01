@@ -88,6 +88,26 @@ public class JavaBasicProgram {
             System.out.println(number + " - Number is not palindrome");
         }
     }
+    public static void factorialProgramUsingLoop(int number){
+        if (number == 0 ){
+            System.out.println("factorial 0 = 1");
+            return;
+        }
+
+        int result = 1;
+        for(int i = 1; i <=number; i++){
+            result = result * i;
+        }
+        System.out.println("farctorial " + number + " = " + result);
+    }
+    public static int factorialProgramUsingRecursion(int number){
+        if (number == 0) {
+            return 1;
+        }
+        else{
+            return(number * factorialProgramUsingRecursion(number-1));
+        }
+    }
 }
 
 

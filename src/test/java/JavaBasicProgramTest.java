@@ -1,5 +1,7 @@
 import org.junit.Test;
 
+import java.net.PortUnreachableException;
+
 public class JavaBasicProgramTest {
     @Test
     public void fibonacciSeriesWithoutRecursion(){
@@ -47,7 +49,18 @@ public class JavaBasicProgramTest {
         JavaBasicProgram.palindromeNumber_2(2224);
         JavaBasicProgram.palindromeNumber_2(111);
     }
-
+    @Test
+    public void factorialProgramUsingLoop(){
+        JavaBasicProgram.factorialProgramUsingLoop(0);
+        JavaBasicProgram.factorialProgramUsingLoop(4);
+        JavaBasicProgram.factorialProgramUsingLoop(5);
+    }
+    @Test
+    public void factorialProgramUsingRecursion(){
+        System.out.println(JavaBasicProgram.factorialProgramUsingRecursion(0));
+        System.out.println(JavaBasicProgram.factorialProgramUsingRecursion(4));
+        System.out.println(JavaBasicProgram.factorialProgramUsingRecursion(5));
+    }
 }
 
 
