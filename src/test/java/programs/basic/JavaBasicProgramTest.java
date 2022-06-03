@@ -1,6 +1,7 @@
-import org.junit.Test;
+package programs.basic;
 
-import java.net.PortUnreachableException;
+import org.junit.Test;
+import programs.basic.JavaBasicProgram;
 
 public class JavaBasicProgramTest {
     @Test

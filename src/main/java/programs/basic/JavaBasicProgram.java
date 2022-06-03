@@ -1,3 +1,5 @@
+package programs.basic;
+
 public class JavaBasicProgram {
     public static void printFibonacci(int amount, int n1, int n2) {
         if(n1 + n2 < 2){
@@ -108,6 +110,7 @@ public class JavaBasicProgram {
             return(number * factorialProgramUsingRecursion(number-1));
         }
     }
+    
 }
 
 
