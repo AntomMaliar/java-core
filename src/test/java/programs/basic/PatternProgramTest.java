@@ -109,8 +109,8 @@ public class PatternProgramTest {
             }
             System.out.println();
         }
-
     }
+
 }
 
 
