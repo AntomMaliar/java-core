@@ -57,5 +57,4 @@ public class StringInJava {
         System.out.println("address s1 is equal s1 after change");
         System.out.println(address1 == address2);
     }
-
 }

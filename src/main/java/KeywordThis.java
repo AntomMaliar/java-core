@@ -15,6 +15,4 @@ public class KeywordThis {
     public KeywordThis(String word){
         System.out.println("another constructor " + word);
     }
-    // ***
-
 }
