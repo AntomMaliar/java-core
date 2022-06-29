@@ -14,5 +14,4 @@ public class MultithreadingTest {
         Thread t1 = new Thread(myThread);
         t1.start();
     }
-
 }
